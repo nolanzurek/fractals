@@ -2,7 +2,7 @@
 Various fractal plotters written in processing
 
 ## Mandelbrot Set
-The set numbers $c \in \mathbb{C}$ where the the function $f(z) = z^2 +c$ does not diverge to infinity when $z$ is iterated (i.e. the sequence $|f_c(0)|, |f_c(f_c(0)))|$ remains bounded). In the default plot, this set is represented by white pixels; the grey pixels encode how quickly the function diverges when iterated. 
+The set numbers $c \in \mathbb{C}$ where the the function $f(z) = z^2 +c$ does not diverge to infinity when $z$ is iterated (i.e. the sequence $|f_c(0)|, |f_c(f_c(0)))|, \dots$ remains bounded). In the default plot, this set is represented by white pixels; the grey pixels encode how quickly the function diverges when iterated. 
 
 ![Mandelbrot set example](./Images/example2.png)
 
